@@ -826,4 +826,134 @@ Package: titletoc 2019/10/16 v2.13 TOC entries
 \ttl@leftsep=\dimen300
 )
 (/usr/local/texlive/2021/texmf-dist/tex/latex/accents/accents.sty
-Packa
+Package: accents 2006/05/12 v1.4 Math Accent Tools
+\cc@skew=\dimen301
+\cc@wd=\dimen302
+\cc@code=\count333
+\cc@group=\count334
+\cc@skewchar=\count335
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/arydshln/arydshln.sty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen303
+\dashlinegap=\dimen304
+\adl@box=\box77
+\adl@height=\dimen305
+\adl@heightsave=\dimen306
+\adl@depth=\dimen307
+\adl@depthsave=\dimen308
+\adl@finaldepth=\dimen309
+\adl@columns=\count336
+\adl@ncol=\count337
+\adl@currentcolumn=\count338
+\adl@currentcolumnsave=\count339
+\adl@totalheight=\count340
+\adl@totalheightsave=\count341
+\adl@dash=\count342
+\adl@gap=\count343
+\adl@cla=\count344
+\adl@clb=\count345
+\adl@everyvbox=\toks51
+\adl@LTpagetotal=\dimen310
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/xwatermark/xwatermark.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/catoptions/catoptions.sty
+\m@one=\count346
+\z@pt=\dimen311
+Package: catoptions 2014/08/29 v0.2.7h Securing catcodes and parsing options (A
+M)
+\cpt@csvdepth=\count347
+\cpt@optdepth=\count348
+\cpt@cnta=\count349
+\indrisdepth=\count350
+\cpt@foreachdepth=\count351
+\cpt@exprcnt=\count352
+)
+Package: xwatermark 2012/10/23 v1.5.2d A dynamic watermarking scheme (Ahmed Mus
+a)
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/picture/picture.sty
+Package: picture 2020-04-22 v1.6 Dimens for picture macros (HO)
+Package picture Info: Calculation method: calc.
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/ltxkeys/ltxkeys.sty
+Package: ltxkeys 2012/11/17 v0.0.3c A robust key-value parser (AM) (Ahmed Musa)
+
+\ltxkeys@csvdepth=\count353
+\ltxkeys@keydepth=\count354
+)
+\xwm@boxa=\box78
+\xwm@boxb=\box79
+\xwm@cnta=\count355
+\xwm@wrt=\write5
+\openout5 = `preamble.xwm'.
+
+)
+(/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2021-02-18 L3 programming layer (loader) 
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count356
+\l__pdf_internal_box=\box80
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-2020-10-
+01.sty
+(/usr/local/texlive/2021/texmf-dist/tex/latex/l3packages/xparse/xparse-generic.
+tex)))
+Package: lipsum 2021-03-03 v2.3 150 paragraphs of Lorem Ipsum dummy text
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex
+File: lipsum.ltd.tex 2021-03-03 v2.3 The Lorem ipsum dummy text
+))
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks52
+\thm@bodyfont=\toks53
+\thm@headfont=\toks54
+\thm@notefont=\toks55
+\thm@headpunct=\toks56
+\thm@preskip=\skip118
+\thm@postskip=\skip119
+\thm@headsep=\skip120
+\dth@everypar=\toks57
+)
+\c@assumption=\count357
+\c@assumptiona=\count358
+\c@assumptionb=\count359
+\c@assumptionc=\count360
+\c@lemma=\count361
+\c@proposition=\count362
+\c@corollary=\count363
+
+./preamble.tex:172: Extra \endgroup.
+\document ->\endgroup 
+                      \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
+l.172 \begin{document}
+                      
+? 
+./preamble.tex:172: Emergency stop.
+\document ->\endgroup 
+                      \let \BeforeStartOfDocument \@firstofone \cpt@beforest...
+l.172 \begin{document}
+                      
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 22176 strings out of 478994
+ 347954 string characters out of 5858184
+ 916149 words of memory out of 5000000
+ 39293 multiletter control sequences out of 15000+600000
+ 404147 words of font info for 30 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 97i,0n,117p,542b,152s stack positions out of 5000i,500n,10000p,200000b,80000s
+./preamble.tex:172:  ==> Fatal error occurred, no output PDF file produced!
