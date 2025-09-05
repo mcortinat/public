@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+
+% ===== BASIC SETTINGS =====
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{lipsum} % for placeholder text, remove later
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage[authoryear]{natbib}
+\bibliographystyle{apalike}  
+\usepackage{titling}
+\setlength{\droptitle}{-3em}
+
+
+
+\doublespacing % double spacing
+
+% ===== TITLE INFO =====
+\usepackage{titling} % put this in your preamble
+\setlength{\droptitle}{-3em} % move title up on the page
+
+\title{\textbf{Research Proposal: Low female participation in economics}\\[-3em]}
+\author{Magdalena Cortina}
+\date{}
+
+
+\begin{document}
+\maketitle
+\vspace{-7em} 
+
+
+
+\section{Motivation}
+Women have historically been underrepresented in some professional careers. Althoughfemale participation in STEM careers has increased in the recent years, economics continues to lagbehind. 
+A growing body of literature has been devoted to exploring this question: what is driving women away from economics? Is it an unattractive career for women? Or do they have fewer opportunities to develop in it? \citet{Dynan1997} highlighted that women often enter college with preconceived notions about economics as a career, leading them to dismiss it from their options early on. A survey conducted among female college seniors revealed that when asked why they had not enrolled in a Principles of Economics course, female students were more than twice as likely as their male counterparts to cite a lack of interest in economics as the reason. Perceived interest in a subject is considered key in career choice \citep{Calkins2006} and women tend to have a more negative predisposition towards economics than men \citep{Bansak2010}. Even so, there are studies that show that they have no differences in performance with respect to boys in introductory courses \citep{Bollinger2009}.
+
+
+\section{Research question}
+There is a broad literature that explores the effects of role models in major choice of different careers including economics, finding a positive impact for female students with female teachers in careers traditionally dominated by men \citep{Bettinger2005, Dynan1997, Neumark1998, Paredes2014, Carrell2010, Breda2020}. Given all of this, there's not a lot of female teachers in introductory courses of economics that could serve as role models. But there certainly are more female teaching assistants in these introductory courses. Teaching assistants, while not considered experts, have in-depth knowledge of the course content, and they can teach, grade, and hold office hours to answer students questions. The question is, can female teaching assistants act as role models for female students, inspiring them to major in economics and potentially pursue a career in economics?
+
+\citet{Porter2020} studied the impact of exposure to female role models in introductory economics courses. Female alumni of the economics major delivered neutral gender-oriented speeches, elucidating how their choice of an economics degree influenced their professional trajectories and contributed to their success. Employing a difference-in-differences strategy, the study revealed a notable and statistically significant 8 percentage point increase, from a 9\% baseline, in female students' inclination to major in economics following these interventions. The research indicates that the mechanism driving this shift is primarily "inspirational" rather than informational. The study underscores the efficacy of a straightforward and cost-effective intervention that potentially encourages women to pursue fields traditionally dominated by men, often correlated with higher earning potential.
+
+To examine the impact of role models, I will compare male and female students, hypothesizing that, given the prevalent male dominance in the field of economics, the gender of the role model is relevant for female students' identification, specifically, with their female teaching assistants. The identification strategy lies on the presumed exogeneity  in the assignment of TAs: students can choose their professors, but they don't have direct control on choosing their TAs. 
+
+
+\section{Data}
+I had access to the administrative data of a university in Chile. The data correspond to the course enrollment, associated with their respective class number. The decision variable for the major in Economics is the enrollment of the course Mathematical Economics. The sample was reduced only to those students who have approved the courses that are prerequisites to enroll in Mathematical Economics; that is, to those who are able to choose this first course of the Major of Economics. I have data for about 10 cohorts, but I am in the process of getting access to updated data that would give me a bigger sample. Potentially, I could try to get data from other universities in Chile and extend even more the study. 
+
+
+\bibliography{econ_role_models} % without .bib extension
+
+
+\end{document}
+
