@@ -1,0 +1,403 @@
+%Input preamble
+\input{preamble2}
+\begin{document}
+
+\title{\Large \textbf{Childcare and Parenting in \\ the Production of Early Life Skills}\thanks{The Promising Practices Network gathered the data used in this paper, and data access was gained through the University of Michigan's Interuniversity Consortium for Political and Social Research data depository. Infant Health and Development Program, Phase IV, 2001-2004 U.S.; ICPSR \#23580. Gallegos thanks the Center for Studies of Conflict and Social Cohesion (ANID/FONDAP/15130009 and ANID/FONDAP/1523A0005) and acknowledges financial support from the National Research and Development Agency (ANID/FONDECYT/Iniciacion/11220263). The usual caveats apply.}}
+
+\author{Sebasti\'an Gallegos\thanks{Universidad Adolfo Ibañez (UAI) Business School.} \and Jorge Luis Garc\'{i}a\thanks{Corresponding author: Department of Economics, Texas A\&M University. Address: 2935 Research Parkway, College Station, TX 77845, USA. Email: jlgarcia@tamu.edu.}} 
+\date{\today}
+
+\maketitle
+\thispagestyle{empty} 
+\doublespacing
+\thispagestyle{empty} 
+
+\vspace{-10mm}
+\renewcommand{\abstractname}{Abstract}
+\begin{abstract} 
+\normalsize 
+\vspace{-5mm}
+
+\noindent We use data from a randomized early childhood education program to estimate the production technology of early life skills. Estimates indicate that, for more disadvantaged children, parental investment is a more effective input for producing skills than childcare. The reverse is true for the more advantaged. The program increases childcare for all children; it increases parental investment for the more disadvantaged. Therefore, our results indicate that programs stimulating parental investment promote mobility across the distribution of early life skills. We thus micro-found recent studies showing that successful early childhood education programs foster parental investment on top of offering high-quality childcare.\\ 
+\vspace{-5mm}
+
+\onehalfspacing
+\noindent \textbf{JEL Codes:} C38, J13, J24.\\
+\noindent \textbf{Keywords:} childcare, early life skills, parental investment, parenting, skill formation, skill production. 
+\end{abstract}
+
+\pagebreak
+\pagenumbering{arabic}
+
+\doublespacing
+\section{ Introduction} \label{section:intro} 
+
+\noindent An extensive literature documents the generality that high-quality early childhood education is an effective and socially efficient public policy, primarily when targeted to disadvantaged children.\footnote{Surveys and studies documenting this fact include  \citet{cunhaInterpretingEvidenceLife2006}, \citet{Elango_Hojman_etal_2016_Early-Edu}, and \citet{heckmanEconomicsHumanDevelopment2014b}; and \citet{bennhoff2024dynastic} and \citet{garcia2020quantifying}.} This effectiveness and social efficiency are grounded in properties of the technology of skill formation. That is, they are grounded on properties of the mapping between the stock of skills a child has at a given period as a function of the stock of skills she had in the previous period and investments made in her. Specifically, early in life, her stock of skills and the investments made in her are direct substitutes or weak complements in the production of skills for the following period. The extent to which her stock of skills and investments made in her complement each other grows over time. Therefore, investing is most effective at remediating a low stock of skills earlier, as substitutability is likelier than in later periods. If remediation of a low stock of skills through investments occurs, follow-up investments become more effective as complementarity between future stocks of skills and investments, and,  therefore, (dynamic) complementarity between investments at different periods arises.
+
+This paper estimates a technology of skill formation or production function of skills early in life (up to age three). We consider one dimension of skills. This is standard practice when analyzing early life skills, as measuring skills multidimensionally at this early age is challenging. We allow for multidimensional investments. Generally, the empirical literature operationalizes the technology of skill formation by assuming that at any given period, there is one dimension of investment or, alternatively, that investment is adequately summarized with a single measure of time and material resources that parents spend on their children (henceforth, parenting). We allow for two dimensions of investment: parenting and time spent in high-quality center-based childcare (henceforth, childcare). This feature of our estimation allows us to conclude regarding the effectiveness of two inputs targeted by successful early childhood education programs.
+
+We use data from the Infant Health and Development Program (IHPD). IHDP was a randomized early childhood education program designed after two iconic programs, the Carolina Abecedarian and Perry Preschool Projects, in eight sites located across the US. The data contain rich measures of cognition at age three, which we use to form the output of the technology of skill formation at age three (i.e.,\ the stock of skills at age three); birth weight, gestational age, baseline maternal cognition, and child mental development at age one, which we use to form the stock of skills in the previous period (in our setting, the initial stock of skills); and several measures of parenting and childcare, which we use to measure the two dimensions of investment. Random assignment to the treatment group provided children and their families with home visits from birth to age three and high-quality center-based childcare at ages two and three. Control-group children did not  eceive home visits or high-quality childcare. While their parents were free to enroll them in other forms of childcare, their enrollment in substitutes for the high-quality childcare provided by assignment to treatment was minor. 
+
+We first estimate latent or factor scores of the stock of skills at age three, as well as the initial stock of skills and parenting, using measurement systems, following seminal work \citep{cunhaEstimatingTechnologyCognitive2010a,cunhaFormulatingIdentifyingEstimating2008a} further explored in recent studies \citep{agostinelliEstimatingTechnologyChildren2016a,agostinelliIdentificationDynamicLatent2016}. We then postulate a production function that allows the output-investment elasticities to vary as a function of the initial stock of skills. The production function also allows the two investment dimensions to interact. Identification of the production function relies on an instrumental-variable strategy that exploits random assignment to treatment and its interaction with baseline variables, potentially driving the effectiveness of childcare and parenting as inputs. \citet{agostinelliIdentificationDynamicLatent2016} show that, in general, the units of the stocks of skills need to be comparable across periods for the elasticities to be interpretable. This requirement is not necessary in our setting, in which we estimate the technology at one period (age three), and the stock of skills in the previous period is an initial condition. In other settings, the technology of skill formation recurses, and the stock of skills appears as an input and an output. That is not our case, as data limitations only allow us to estimate the technology at one point in time. 
+
+Our findings indicate that childcare is most effective at producing early life skills for the most advantaged children in terms of initial skills: while the input elasticity does not differ statistically from $0$ for the most disadvantaged (those below the 25\textsuperscript{th} percentile of the distribution of initial skills), a $1\%$ increase in childcare for those above the 75\textsuperscript{th} percentile generates a statistically significant increase in early life skills of between $2.5\%$ and $5\%$. In turn, parenting produces early life skills for the most disadvantaged most effectively. For them, a $1\%$ increase in parenting generates a statistically significant increase in early life skills between $0.4\%$ and $1.2\%$. For reference, assignment to the treatment group of IHDP increases childcare and parenting by $1.83$ (s.e. $0.09$) and $0.138$ (s.e.\ $0.076$) standard deviations, respectively. 
+
+A stylized counterfactual exercise allows us to clarify our findings and units of measurement. Assignment to the treatment group of IHDP increases childcare uniformly across the distribution of initial skills. Thus, boosting this input does not promote the mobility of the most disadvantaged children. Indeed, it exacerbates inequality because childcare is most effective for the most advantaged children. However, assignment to the treatment group increases parenting for the most disadvantaged. This input is the most effective for disadvantaged children. Holding all else equal, the increase in parenting generated by random assignment makes the average early life skills of the most disadvantaged almost identical to the observed average among the control (no-treatment) average. Put differently, boosting parenting for the most disadvantaged allows them to catch up to the average skills of all children, holding all else equal. 
+
+Our two main findings are (i) parenting is the most effective input in producing early life skills for the most disadvantaged, and (ii) high-quality early childhood education programs, like IHDP, increase this input the most for these children. They relate our work to a recently documented generality across high-quality early childhood education programs \citep{garciaParentingPromotesSocial2023}. Namely, that programs effectively improving child skills and lifetime outcomes do so by encouraging the investment they receive from their parents, on top of providing center-based childcare services. Therefore, we provide a micro-foundation for the recently documented generality: the effectiveness of high-quality early childhood education programs is based on the fact that they increase the input that happens to be the most effective at producing skills early in life, a sensitive period in which investments foster the productivity of subsequent investments. 
+
+A suggestive exercise using limited data at ages five and eight indicates that the patterns of the childcare and parenting elasticities with respect to initial skills persist, though they decrease in magnitude. This finding suggests that parental investments are more efficient earlier in life and that they are to be reinforced to further generate mobility of disadvantaged children across skill distributions, which, in turn, has been shown to promote social mobility in lifetime outcomes \citep[e.g.,][]{heckmanUnderstandingMechanismsWhich2013b}.
+
+\section{ Context and Data} \label{section:program}
+
+\noindent The Infant Health and Development Program \citep{ramey1992infant} aimed to foster the development of children at a socioeconomic disadvantage, measured by prematurity and low birth weight \citep{gross1997helping}. It had a randomized design. The control and treatment groups of the program received pediatric follow-ups when children were between 40 weeks and 36 months old. The children in the treatment group received support from their parents through home visits and center-based childcare between childbirth and age three.
+
+\subsection{ Treatment Services} 
+
+\noindent \textbf{Home Visits.} Professional home visitors visited the households of the treated children, training the parents in problem-solving and parenting skills, following the curriculum \textit{Partners for Learning}. Professionals demonstrated, practiced, and discussed the curriculum with parents to train them as partners in their children's learning. Home visits occurred weekly during the first year of treatment and twice a month in the second and third years.\footnote{Home visits are a common component of high-quality early childhood education programs. The Perry Preschool Project and Head Start are examples. These visits are an effective component of the Head Start curriculum \citep{waltersInputsProductionEarly2015a}.}
+
+\noindent \textbf{High-Quality Childcare.} Treatment at the childcare centers began when children reached age one and lasted two years. Children could spend between four and nine hours in childcare during weekdays, with the actual number of hours being chosen by their parents. The childcare centers, for the exclusive use of the treated children, satisfied state licensing requirements and other standard requirements to be considered high quality (e.g., low caregiver-child ratios). Caregivers were professionals; they continued \textit{Partners for Learning} and introduced children to a set of activities based on \textit{Early Partners}, a continuation of \textit{Partners for Learning}.
+
+\subsection{ Sample} 
+
+\noindent \textbf{Initial Sample.} After an initial prescreening, 1,028 mothers who gave birth to low-birthweight singleton children or twins between January and October of 1985 in eight university hospitals (henceforth, sites) across the United States agreed to participate in the program.\footnote{The sites were in Arkansas, Connecticut, Florida, Massachusetts, New York, Pennsylvania, Texas, and Washington.} The randomization was stratified by site, treatment status, and birth weight---low-low ($\leq$ 2,000 grams) or low-high ($>$ 2,000 grams, $\leq$ 2,500 grams). The per-stratum probability of being treated was $1/3$. After randomization, 43 mothers withdrew from the program. This source of attrition is minor, and we do not address it. The 985 remaining mothers gave birth to the children in the initial sample.
+
+\noindent \textbf{Main Analysis Sample.} The initial sample contained 882 mothers of singletons (547 controls and 335 treatments) and 103 mothers of twins (61 controls and 42 treatments). The IHDP oversampled twins: 2\% of children born in the US in 1985 were twins \citep{natality}, while 10\% of children in the initial sample were twins. This oversampling occurs because twins are eight times more likely to be premature and have low birth weight than singletons \citep{birthdata}. Unlike singletons, twins are likely to be premature and have low birth weight for biological reasons, holding all else equal.\footnote{The oversampling of twins was unlikely due to in-vitro fertilization methods, which were incipient in the early 1980s \citep{wang2006vitro}.} \citet{douganHighQualityEarlyChildhoodEducation2023} argue that the data-generating processes for singletons and twins differ in economically meaningful ways (e.g.,\ there are increasing returns in parenting twins). They show that the treatment effects of the IHDP on singletons resemble the treatment effects of programs like the Carolina Abecedarian and Perry Preschool Projects. In contrast, the treatment effects on twins are minor. Therefore, pooling singletons and twins attenuates the treatment effects of IHDP, obscuring the conclusions regarding the treatment effects on most of the sample. For clarity, we follow standard practice in studies of IHDP \citep[e.g.,][]{chaparroEarlyChildhoodCare2020a} and do not consider twins when forming the main analysis sample, noting that treatment-control average differences at baseline remain balanced after dropping the twins (see Panels a.\  and b.\ of Table~\ref{table:summary}). 
+
+The skills, childcare, and parenting measures used to construct the variables described below are based on comprehensive questionnaires. Naturally, these variables have item non-response. Therefore, the number of singleton children in the main analysis sample decreases from 882 in the initial sample to 644. Yet, standard baseline-covariate tests in Panels a.\  and b.\ of Table~\ref{table:summary} indicate covariate balance between the treatment and control groups. In addition, (i) our estimators account for baseline covariates that could help account for non-random item non-response; and (ii) \citet{douganHighQualityEarlyChildhoodEducation2023} document that item non-response is indeed random. Item non-response is a minor issue that we do not address.\footnote{Table~\ref{table:summaryall} indicates that, in terms of the observed average for the treatment and control groups, the sample of 882 for whom we fully observe basic baseline characteristics and the main analysis sample of 644 children are virtually identical.} 
+
+\begin{table}
+\begin{threeparttable}
+\caption{Summary Statistics: Main Analysis Sample} \label{table:summary}
+\centering 
+\onehalfspacing
+\begin{tabularx}{16cm}{XcX}
+& \scalebox{.7}{
+\input{output/descriptive.tex}																			
+} 
+& 
+\end{tabularx}
+\begin{tablenotes} 
+\footnotesize
+\noindent \textbf{Note:} Columns (1) and (2) display the average of the variable indicated in the row for the treatment and control groups. Column (3) displays the difference between Columns (1) and (2), and Column (4) displays the robust standard error of this difference clustered at the child level. All computations are based on the main analysis sample of 644 singleton participant children (observed with complete item response up to age three). \\
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection{ Measures of Skills, Childcare, and Parenting} \label{section:skillmeasurement}
+
+\noindent Our main results are based on estimating the production technology of early life skills at age three. The three inputs we consider are initial skills, childcare, and parenting. Data limitations do not allow us to consider periods between our observation of initial skills at baseline and age three. In practice, there is no recursion in the production technology that we estimate. Initial skills are simply an initial condition, and differences in units between initial and early life skills do not contaminate the interpretation of the estimated parameters. If the production technology recursed, skills would appear as an output in one period and as an input in subsequent periods, making unit comparability essential for interpreting parameter estimates \citep{freybergerNormalizationsMisspecificationSkill2022,agostinelliIdentificationDynamicLatent2016}. 
+
+Skills are unobserved. Therefore, the usual practice is to follow seminal work \citep[i.e.,][]{cunhaEstimatingTechnologyCognitive2010a,cunhaFormulatingIdentifyingEstimating2008a} and estimate latents or factor scores using multiple imperfect or noisy skill measures. An alternative is to estimate parameters determining the distribution of these latents together with the parameters characterizing the production technology \citep[e.g.,][]{cunhaEstimatingTechnologyCognitive2010a,agostinelliEstimatingTechnologyChildren2016a}. This strategy is especially suitable when the production technology is recursive. In our case, there are no gains from joint estimation other than statistical efficiency. Separate estimation allows us to clearly describe the latents and associated raw, noisy measures. 
+
+\noindent \textbf{Initial Skills.} In principle, there are several skills at any given age. Measuring multiple skills is challenging when children are recently born or early in their lives. We estimate a single latent or factor score and interpret it as a general descriptor of a child's capacity to function using a basic framework \citep[e.g.,][]{williamsIdentificationLinearFactor2020}. Identification requires at least three noisy measures, all linear functions of the underlying latent and measurement error. Measurement error is assumed to be mean-independent of the underlying factor and independent across measurements. 
+
+We estimate the latent of initial skills using four measures: birth weight, gestational age, the Bayley Mental Development Index (MDI) at baseline,\footnote{The Bayley Mental Development Index was measured throughout age one; it was not strictly a baseline variable. However, Table~\ref{table:summary} indicates that the treatment had not generated an impact. Using this as a baseline measure is justified and helpful, as it is a powerful indicator of a child's capacity to function. Similarly, for early life skills, we combine measures at age three with a measure at age two and interpret the resulting latent as an age-three latent. The age-two measure makes identification possible.} and a measure of maternal intellectual quotient (IQ) based on the Peabody Picture Vocabulary Test.\footnote{For estimation, we use an asymptotic distribution-free estimator that efficiently weights covariance moments across the four measures \citep{browne1984asymptotically}.} The first two are typical measures in studies of early life skills and human capital \citep[e.g.,][]{aizerProductionHumanCapital2012,rosenzweigHeterogeneityIntrafamilyDistribution1988}.\footnote{\label{footnote:birthweight}Birth weight is especially useful in this setting, where all children are low birth weight. All observed children have a birth weight that is considered unhealthy. Therefore, a marginal increase would put a child in our sample at a relative advantage in terms of capacity to function with respect to the other children \citep{boulet2011birth,boardman2002low}.} The third is a more direct measure of child functioning. We also include maternal IQ at baseline, naturally correlated with initial child skills, for a more precise estimation. Panel (a) of Figure~\ref{figure:measures} displays the distribution of the latent initial skills by treatment status, and Panels a.\ and b.\ of Table~\ref{table:summary} display the associated measures; they verify no average treatment-control difference, an essential requirement for these baseline measures. 
+
+\begin{sidewaysfigure}
+\centering
+\caption{Measure Description: Initial Skills, Early Life Skills, and Inputs} \label{figure:measures}
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Initial Skills (Baseline)}  
+	\includegraphics[width=\textwidth]{output/baseline_humancapital_std}
+\end{subfigure}
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Early Life Skills (Ages 2 to 3)}  
+	\includegraphics[width=\textwidth]{output/early_humancapital_std}
+\end{subfigure}
+
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Childcare (Ages 1 to 3)} 
+	\includegraphics[width=\textwidth]{output/cum_avg_daycare_36m_sum}
+\end{subfigure}
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Parenting (Ages 1 to 3)}  
+	\includegraphics[width=\textwidth]{output/parenting_ages13_std}
+\end{subfigure}
+
+\footnotesize
+\justify
+\textbf{Note:} Panel (a) displays the empirical distribution of initial skills at baseline (a factor score of the child gestational age, birth weight, Bayley Mental Development Index and the mother Peabody Picture Vocabulary Test) by treatment status. Panel (b) is analogous in format to Panel (a) for early life skills (a factor score of the child Bayley Mental Development Index at age two, Peabody Picture Vocabulary Test at age three, and Stanford-Binet Test at age three). Panel (c) displays a histogram of the childcare hours per week by treatment status (childcare hours per week is computed as the average of the childcare hours per week during a regular week when the child is 12, 18, 24, 30, and 36 months old). Panel (d) is analogous in format to Panel (a) for parenting. Parenting is the average of two factor scores based on the Home Observation Measurement of the Environment at ages 1 and 3. All panels display the control-group mean and the average treatment-control difference, as well as the robust standard error of this difference clustered at the child level. The latents or factor scores in Panels (a), (b), and (d) are standardized by subtracting from them the control-group mean, dividing them by the control-group standard deviation, and adding to them 100. 
+\end{sidewaysfigure}
+
+\noindent \textbf{Early Life Skills.} Similar to initial skills, we estimate a latent summarizing early life skills. In this case, the latent is based on the three measures summarized in Panel d.\ of Table~\ref{table:summary}. These three measures are standardized to the national mean of 100 and standard deviation of 15. They show that, between ages two and three, assignment to the IHDP treatment generates an average increase of between one and almost two-thirds of the standard deviation of the national distribution of the respective measure. 
+
+Latents do not have a natural location or scale, so it is innocuous to standardize them arbitrarily. We standardize the initial and early life skills latents by subtracting from them the control-group mean, dividing them by the control-group standard deviation, and adding to them 100. This standardization allows us to interpret treatment-control differences straightforwardly. For instance, assignment to the IHDP treatment generates an average increase of 0.42 (s.e.\ 0.07) in early life skills. This impact equals 42\% of the no-treatment counterfactual standard deviation; equivalently, it equals a $0.42\%$ increase with respect to the control-group mean. We standardize the variables so that a 1 standard deviation average increase is equivalent to a 1\% average increase from the control group.
+
+\noindent \textbf{Childcare.} Mothers of all children in the main analysis sample reported the weekly hours their children spent in childcare centers in an average week. The reports occurred when the children were 18, 24, 30, and 36 months old. To consolidate this information into one measure, we average observations of the average week across these four ages. This average is our measure of the ``childcare'' or ``childcare between ages one and three'' input. We do not correct it for measurement error.
+
+Mothers did not report the specific center that their children attended. However, program records indicate that treatment-group children exclusively attended IHDP childcare centers \citep{gross1997helping}. We assume that the childcare hours mothers reported were spent at the IHDP childcare centers, which were of homogenous, high quality. Control-group children had no access to the IHDP childcare centers. However, their mothers were free to enroll them in alternative centers of potentially varying quality. This enrollment was relatively minor: an average of 5.6 hours a week, which was, on average, 21.4 (s.e.\ 1.04) fewer hours than the treatment group. Therefore, we consider the lack of quality adjustment in their enrollment hours a minor issue of our childcare measure (indeed, 73\% control-group children did not attend childcare at all; for them and the entire treatment group, there is no measurement issue at all). 
+
+For the analysis below, we standardize the variable childcare by subtracting the control-group mean from it, dividing it by the control-group standard deviation, and, finally, relocating it by adding the control-group mean. This rescaling is such that all values are positive, and taking logs is not problematic when estimating the production function. This type of rescaling is suggested when the dependent variable is truncated at 0 \citep{chenLogsZerosProblems2024}. The standardized childcare variable is described in Figure~\ref{figure:standardizedchildcare}. It has a control-group mean of 5.6 and an average treatment-control difference of 1.83 (s.e.\ 0.09).
+
+\noindent \textbf{Parenting.} Like skills, parenting is not observed. We estimate two latents, one at age one and another at age three, using the long form of the Home Observation Measurement of the Environment (HOME) inventory \citep{bradley1992home,bradley1984home}, which was used to measure the interaction of the child and mother participants, as well as the resources available during that interaction. %The HOME inventories are adapted across ages to account for child maturation. 
+
+For age one, the HOME inventory has 24 binary items (e.g.,\ parent structures child's play periods) divided into six subscales. Subscale scores are the fraction of items within the subscale for which the binary items are one. We use the scores in the six subscales as measures of parenting at age one to estimate a latent, using the same procedure described for constructing the latents of initial and early life skills. We proceed in the same way to estimate the latent at age three.\footnote{At age one, the subscales of the HOME inventory are parental warmth, parental verbal skills, parental lack of hostility, learning and literacy, activities and outings, and developmental advance. At age three, the HOME inventory has eight subscales (learning stimulation, access to reading, parental verbal skills, parental warmth, home exterior, home interior, outings and activities, and parental lack of hostility).} Factor analyzing the sub-scales of the HOME scores produces a data-driven, error-corrected measure of the time and material goods spent by parents on children, which we call ``parenting.'' Below, we use the average of the two latents as our measure of parenting, which we standardize in the same way that we standardize the latents of skills. Panel (d) of Figure~\ref{figure:measures} shows that assignment to treatment substantially shapes parenting.
+
+\section{ Framework and Empirical Strategy} \label{section:empiricalstrategy}
+
+\noindent This effectiveness and social efficiency of investing in high-quality early childhood education are founded in properties of the function $\bm{f}_{t}$ in
+\begin{align} 
+\underbrace{\bm{\theta}_{t+1}}_{\text{skills at time $t+1$}}  = \bm{f}_{t} \left( \underbrace{\bm{\theta}_t}_{\text{stock of skills at $t$}}, \underbrace{\bm{I}_t}_{\text{investments at $t$}}\right). \label{eq:prod0}
+\end{align}
+\noindent The literature finds that early in life, skills ($\bm{\theta}_t$) and investments ($\bm{I}_t$) at any given period $t$ are direct substitutes or weak complements in the production of skills at $t+1$ ($\bm{\theta}_{t+1}$) and that complementarity between skills and investments grows over time. Therefore, earlier investments $\bm{I}_t$ are most effective at remediating relatively low levels of skills $\bm{\theta}_t$ because substitutability is likelier than in later periods. When investment remediates low stocks of skills, follow-up investments become more effective as complementarity between future stocks of skills and investments, and,  therefore, (dynamic) complementarity between investments at different periods arises.
+
+We aim to estimate $\bm{f}_{t}$ at age three, considering our age-three measure of early life skills as an output. In our case, $\bm{\theta}_{t+1}$, $\bm{\theta}_t$, and $\bm{f}_{t}$ scalar. Though the empirical literature operationalizes the technology in Equation~\eqref{eq:prod0} by assuming that at any given period $t$, $\bm{I}_t$ has one dimension, we consider two dimensions (childcare and parenting). We estimate latents or factor scores of $\bm{\theta}_{t+1}$, $\bm{\theta}_{t}$, and parenting as described in Section~\ref{section:skillmeasurement}. As described in that section, a measure of childcare is readily available.\footnote{As noted in the introduction, \citet{agostinelliIdentificationDynamicLatent2016} show that, in general, the units of $\bm{\theta}_{t+1}$ and $\bm{\theta}_{t}$ need to be comparable for the parameters involving $\bm{\theta}_{t}$ to be interpretable in terms of elasticities with respect to $\bm{\theta}_{t+1}$. This requirement is not necessary in our setting, in which we estimate the technology at one period, and, therefore, $\bm{\theta}_{t}$ is an initial condition. In other settings, a recursion of $\bm{f}_t$ is considered, and $\bm{\theta}_{t+1}$ appears as an input after being an output. That is not our case, as data limitations only allow us to estimate the technology at one point in time.}
+
+We use a transcendental logarithmic (translog) production function as the empirical counterpart of  Equation~\eqref{eq:prod0}: 
+\begin{align}
+\ln \left( \theta_{\text{early}} \right) &= \alpha_{\theta} \cdot  \ln \left( \theta_{\text{initial}} \right)  \label{eq:prod} \\
+	    &+ \alpha_{\text{c}} \cdot {\ln \left( \text{childcare} \right)} + \alpha_{\text{c}^2} \cdot \left[ {\ln \left( \text{childcare} \right)} \right]^2 + \alpha_{\text{c}\theta} \cdot {\ln \left( \text{childcare}  \right)} \cdot \ln {\left( \theta_{\text{initial}} \right)} \nonumber \\
+	    &+ \alpha_{\text{p}} \cdot {\ln \left( \text{parenting} \right)} + \alpha_{\text{p}^2} \cdot \left[ {\ln \left( \text{parenting} \right)} \right]^2 + \alpha_{\text{p}\theta} \cdot {\ln \left( \text{parenting}  \right)} \cdot \ln {\left( \theta_{\text{initial}} \right)} \nonumber \\
+	    	    &+ \alpha_{\text{cp}} \cdot {\ln \left( \text{childcare} \right)} \cdot {\ln \left( \text{parenting} \right)} \nonumber \\
+	    & +  \varepsilon, \nonumber 
+\end{align}
+\noindent where $\theta_{\text{early}}$, $\theta_{\text{initial}}$, childcare, and parenting are described in Figure~\ref{figure:measures}, and $\varepsilon$ is an error term. This framework is cross-sectional: $\theta_{\text{initial}}$ is an initial condition at age three when $\theta_{\text{early}}$ is measured. The inputs $\text{parenting}$ and $\text{childcare}$ are measured between ages one and three. 
+
+Though our framework is cross-sectional, the production function we estimate accommodates non-linearities in the elasticities of the inputs with respect to initial skills, speaking to complementarity and substitutability patterns. Differently from Cobb-Douglas cases, the technology we consider does not restrict the elasticities of substitution between inputs, which have been found to differ from $1$ \citep[e.g.,][]{cunhaEstimatingTechnologyCognitive2010a}. This generality makes translog and constant-elasticity-of-substitution functions common skill-formation technologies \citep[e.g.,][]{cunhaEstimatingTechnologyCognitive2010a,agostinelliEstimatingTechnologyChildren2016a,delbonoIdentificationDynamicLatent2022}. A general practice in the literature is to estimate production technologies of various functional forms using different measures of parental investment or parenting as the only input. An exception is \citet{attanasioEstimatingProductionFunction2020b}, who consider two forms of parental investment as inputs, i.e.,\ material investment and time investment. A primary difference between our framework and others is that we consider an additional input, childcare, and its interactions with initial skills and parenting.
+
+The parameters of interest are the elasticities of childcare and parenting with respect to $ \theta_{\text{early}}$, for which we need consistent estimates of the $\alpha$ parameters in Equation~\eqref{eq:prod}. If $\varepsilon$ is mean-independent of the right-hand-side variables of this equation, ordinary least squares (OLS) yields such estimates. This assumption is implausible because parents base their childcare and investment decisions on unobserved information in $\varepsilon$. Three alternatives are standard in the literature: (i) decomposing $\varepsilon$ into a time-invariant component and a time-varying random component in a longitudinal setting, estimating the time-invariant component; (ii) exploiting sequential mean independence and lagged skills as instruments in a longitudinal setting; and (iii) exploiting control functions based on input prices in a cross-sectional setting.\footnote{Examples include (i) \citet{cunhaEstimatingTechnologyCognitive2010a} and \citet{pavanProductionSkillsBirthOrder2016}; (ii) \citet{delbonoIdentificationDynamicLatent2022}, \citet{agostinelliEstimatingTechnologyChildren2016a}, and \citet{cunhaEstimatingTechnologyCognitive2010a}; and (iii) \citet{attanasioHumanCapitalDevelopment2020a} and \citet{attanasioEstimatingProductionFunction2020b}.} We cannot implement the first two approaches in our setting. The third approach could be an option, but price variation is likely helpful in settings with a wider geography. Instead, we exploit randomization in an instrumental-variable (IV) setting.
+
+\subsection{ Instrumental-Variable Strategy} \label{section:iv}
+
+The seven variables involving either childcare or parenting in Equation~\eqref{eq:prod} potentially fail to satisfy mean independence. Therefore, we need at least seven instruments.\footnote{As a measurement-error corrected predetermined stock, we assume that $\theta_{\text{initial}}$ alone does not generate endogeneity issues.} The first instrument is randomization ($R$) to the treatment or control groups. We generate additional instruments by interacting $R$ with a subset of baseline variables in $\bm{X}$.  Importantly, all of our estimations of Equation~\eqref{eq:prod} control for baseline variables $\bm{X}$, which includes $\theta_{\text{initial}}$ henceforth. Instruments based on interactions are described in \citet{donaldChoosingNumberInstruments2001a} and applied in \citet{angristDoesCompulsorySchool1991}. Initial skills, the maternal characteristics in Panel b.\ of Table~\ref{table:summary}, and site fixed effects are likely to induce variation in treatment effectiveness. Interacting them with $R$ likely leads to instruments with strong first stages.\footnote{\citet{Elango_Hojman_etal_2016_Early-Edu} and \citet{heckmanEconomicsHumanDevelopment2014b} argue that initial endowments and paternal characteristics shape how early childhood education programs affect children. \citet{bernalChildCareChoices2011} exploit maternal factors, such as marital status and state location, to derive instruments that shift childcare and employment decisions. Similar arguments motivate our interaction instruments.} We interact these variables with $R$ to generate thirteen instruments in addition to $R$.
+
+We need at least seven instruments and have a total of fourteen. \citet{neweyEfficientInstrumentalVariables1990} proposes using the projection of each endogenous variable on the instruments and controls, generating efficient instruments.\footnote{This procedure reduces the number of instruments, avoiding the ``many-instruments-problems'' that biases IV estimators \citep[][]{Stock2005asymptotic}.} We form these projections and use them as instruments. Our estimation procedure consists of three steps: (i) projecting our seven potentially endogenous variables on the fourteen instruments and $\bm{X}$; (ii) use the projections obtained in (i) to run the standard first stage of linear IV estimation; and (iii) use the projections in (ii) to run the standard second stage of linear IV estimation.
+
+\noindent \textbf{Exogeneity.} To be valid, our instruments must be exogenous (randomly assigned and excluded). We justify the exogeneity of $R$ and the interaction instruments, which should translate into the exogeneity of the projection instruments we generate to gain efficiency. 
+
+By design, $R$ is randomly assigned. Table~\ref{table:summary} documents the resulting balance in observed characteristics between the treatment and control groups. We argue that $R$ also satisfies the exclusion restriction because the literature indicates that, while assignment to high-quality early childhood education shifts the inputs of the production function of early life skills, it does not shift the parameters \citep{attanasioEstimatingProductionFunction2020b,heckmanUnderstandingMechanismsWhich2013b}. Therefore, we assume that $R$ is exogenous. 
+
+In our context, $\mathbb{E} \left[ \varepsilon | \bm{X} \right] = 0$ is a plausible assumption because $\bm{X}$ only includes baseline variables. If this assumption holds, the interaction of $R$ with any element of $\bm{X}$ is also a plausibly exogenous instrument. Of course, these interaction instruments are only valid conditional on $\bm{X}$ (e.g.,\ the interaction of $R$ with initial skills is only a plausibly exogenous instrument conditional on initial skills). A balance check of random assignment is the following. Let $\tilde{x}$ denote a baseline variable in $\bm{X}$ that is not interacted to form instruments and $\tilde{\bm{X}}$ the subset of variables in $\bm{X}$ that are interacted to form instruments. We estimate
+\begin{align}
+ \tilde{x} = \beta \cdot \text{instrument} + \bm{\gamma} \cdot \tilde{\bm{X}} + \upsilon,
+\end{align}
+\noindent where $\beta$ is a coefficient, $\bm{\gamma}$ is a coefficient vector, and $\upsilon$ is an error term. Testing the null hypothesis $\beta = 0$ is a test of balance. If $\text{instrument} = R$, the test is a standard balance test conditional on $\tilde{\bm{X}}$. We display this test for each of our instruments in Table~\ref{table:randtests} for $\tilde{x} = \{ \text{Male, Black, Hispanic} \} $, which are variables in $\bm{X}$ that we do not interact to form instruments. We also display the corresponding joint $F$-test.\footnote{That is, the $F$-test contrasting a model regressing the instrument on $\text{Male}$, $\text{Black}$, $\text{Hispanic}$, and $\tilde{\bm{X}}$ with a model regressing the instrument on $\tilde{\bm{X}}$.} The resulting tests largely indicate that the instruments satisfy random assignment.
+
+As for the exclusion restriction, if $R$ does not shift the production function, it is likely that its interaction with baseline characteristics does not shift the production function either. Therefore, the fourteen instruments, and, thus, the projection instruments, are plausibly exogenous.
+
+\begin{table}
+\begin{threeparttable}
+\caption{Instrument Diagnostics: Additional Randomization Tests} \label{table:randtests}
+\centering 
+\begin{tabularx}{16cm}{XcX}
+& \scalebox{.675}{
+\input{output/randomization.tex}																			
+} 
+& 
+\end{tabularx}
+\begin{tablenotes} 
+\footnotesize
+\noindent \textbf{Note:} The first entry of Column (1) displays the $t$-statistic and corresponding (two-sided) $p$-value of the coefficient on treatment-control status or randomization indicator ($R$) in a regression of a male indicator on $R$. The regression also conditions on the initial skills factor score described in Panel (a) of Figure~\ref{figure:measures}, the maternal and household characteristics at baseline in Panel b.\ of Table~\ref{table:summary}, and site indicators. The first entries of Columns (2) to (4) are analogous in format to the first entry of Column (1) for indicators of black and Hispanic. The first entry of Column (5) displays the $F$-statistic and corresponding $p$-value of a joint test of significance of male, black, and Hispanic in a regression of $R$ on these three variables and the initial skills factor score described in Panel (a) of Figure~\ref{figure:measures}, the mother and household characteristics at baseline in Panel b.\ of Table~\ref{table:summary}, and site indicators. The remaining rows in the table are analogous in format to the first row for each indicated variable (regressions use the interaction of $R$ with the observed characteristic in the label instead of $R$). The $t$-statistics and $p$-values are based on robust standard errors clustered at the child level.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\noindent \textbf{Rank.} We estimate the first stage using the projection instruments. We directly test their rank. If there were one potentially endogenous variable and one projection instrument, the rank condition would be tested as follows: (i) regress the endogenous variable on the projection instrument and $\bm{X}$, and (ii) contrast the regression model in (i) with a model excluding the projection instrument. The projection instrument would satisfy the rank condition if the $F$-statistic from the test in (ii) exceeded 10 \citep{Stock2005asymptotic}. When there are multiple potentially endogenous variables, it is possible to compute an analogous $F$-statistic: (i) regress the endogenous variable on its corresponding projection instrument and $\bm{X}$, and (ii) contrast the model in (i) with a model excluding the projection instrument. Panel a.\ of Table~\ref{table:ranktests} indicates strong first stages based on this test. However, the correlation between the endogenous variables could make the $F$-statistics overstate the rank of the projections instruments. We pursue formal, joint rank tests. 
+
+In the case of multiple endogenous variables, there is a system of first-stage equations and a matrix of coefficients associated with the projection instruments. The alternative hypothesis associated with a satisfactory rank is that the rank of this matrix equals the number of endogenous variables (in our case, 7). Null hypotheses of ranks below seven are tested against this alternative. There are $\chi^2$-statistics associated with each of these tests \citep{kleibergenGeneralizedReducedRank2006}. We display them in Panel b.\ of Table~\ref{table:ranktests}. We consider three different control sets for the individual and joint tests. The most comprehensive set includes initial skills, male, black, and Hispanic indicators, the maternal and household characteristics in Panel b.\ of Table~\ref{table:summary}, and site indicators. In all instances, we reject the null hypothesis that the rank is less than 6 (or any integer between 0 and 5, individually) with 1\% significance. Our instruments plausibly satisfy the rank condition.
+
+\begin{table}
+\begin{threeparttable}
+\caption{Instrument Diagnostics: Rank Tests} \label{table:ranktests}
+\centering 
+\begin{tabularx}{16cm}{XcX}
+& \scalebox{.6}{
+\input{output/rank.tex}																			
+} 
+& 
+\end{tabularx}
+\begin{tablenotes} 
+\footnotesize
+\noindent \textbf{Note:} The entry Childcare in Column (1) of Panel a.\ displays the rank $F$-statistic and corresponding $p$-value of the projection instrument childcare. The statistic corresponds to a test contrasting a model that regresses childcare on the projection instrument and Control Set 1 and a model that regresses childcare on Control Set 1. The projection instrument childcare is the prediction of a regression of childcare on the instruments (a treatment-status indicator $R$ and the interactions of $R$ and a subset of the baseline variables listed in Table~\ref{table:randtests}), and Control Set 1. The remaining entries in Column (1) of Panel a.\ are analogous in format to the entry Childcare for the other projection instruments. Column (1) of Panel b.\ displays the joint rank $\chi^2$-stats and corresponding $p$-values of the instruments in Panel a. The statistics correspond to tests of each of the indicated null and alternative hypotheses. The rank tests are conditional Control Set 1. Columns (2) and (3) of Panels a.\ and b.\ are analogous in format to Column (1) for Control Sets 2 and 3. Control Set 1: initial skills and site indicators. Control Set 2: Control Set 1 and male, black, and Hispanic indicators. Control Set 3: Control Set 2 and the maternal and household characteristics in Panel b.\ of Table~\ref{table:summary}. The statistics and $p$-values are based on robust standard errors clustered at the child level.
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\subsection{ Inference} In Tables~\ref{table:summary} to~\ref{table:ranktests} and Panels (a) and (b) of Figure~\ref{figure:counterfactuals}, our inference is robust and clustered at the child level. Robust inference is standard. Clustering at the level of randomized assignment is recommended \citep{abadieWhenShouldYou2022}. We use this inferential procedure for basic descriptions and tests because it is transparent and straightforward to replicate. For Table~\ref{table:mainestimates} and Figures~\ref{figure:mainestimates} and~\ref{figure:longerestimates}, our inference is bootstrapped, clustering at the child level and stratifying by site, treatment status, and birthweight group (low-low or high-low). Bootstrapping allows us to account for the sampling variation in each of the steps of our estimation (i.e.,\ estimation of latents of skills and parenting, projections for constructing efficient instruments, and main estimation). Stratifying allows us to emulate the randomization procedure in each bootstrap resampling.
+
+\section{ Results} \label{section:results}
+
+\noindent Table~\ref{table:mainestimates} displays our main elasticity estimates evaluated at the mean. As a reference, Panel a.\ displays elasticities based on OLS estimates of Equation~\eqref{eq:prod}. Panel b.\ displays elasticities based on IV, our preferred empirical strategy. In either case, estimates are robust to accounting for our control sets. While the IV estimates are naturally more imprecise, the estimates indicate that the elasticities differ statistically from 0 when using standard significance levels. We interpret results using the broadest control set (Control Set 3).
+
+Initial skills are a baseline, measurement-error-corrected variable. The corresponding elasticity is unlikely to be biased, as suggested by the similarity between the OLS and IV elasticities of $0.26$ (s.e.\ $0.025$) and $0.19$ (s.e.\ $0.055$). Both estimates indicate that skills are self-productive, a necessary condition for dynamic complementarity. As we explain above, given that initial skills are an initial condition and our estimated production technology does not recurse, the difference in the measures on which initial and early life skills are based is not an issue. However, it is expected for the skill-to-skill elasticities to be farther from 1 than in settings with common measures across ages \citep[e.g.,][]{agostinelliEstimatingTechnologyChildren2016a}. In this case, a 1\% increase in initial skills increases early life skills by $0.2\%$. Assignment to IHDP treatment increases early life skills by $0.48\%$. Thus, an increase of 2.5\% or 2.5 control-group standard deviations of initial skills would generate the same impact as random assignment to IHDP treatment---this interpretation is only a thought experiment because initial skills are a (pre-treatment) baseline variable. 
+
+\begin{table}
+\begin{threeparttable}
+\caption{Main Estimates: Elasticities and Predicted Treatment Effects at the Mean} \label{table:mainestimates}
+\centering 
+\begin{tabularx}{16cm}{XcX}
+& \scalebox{.65}{
+\input{output/mainestimates.tex}																			
+} 
+& 
+\end{tabularx}
+\begin{tablenotes} 
+\footnotesize
+\noindent \textbf{Note:} Column (1) of Panel (a) displays the elasticities (at the mean) of initial skills, childcare, and parenting and their corresponding standard error. Elasticities are based on OLS estimates of Equation~\eqref{eq:prod}. They represent the change in early life skills given a 1\% change in the corresponding variable. The elasticities are conditional on Control Set 1. Panel a.\ then displays the $\%$ of the average treatment-control difference displayed in Panel (d) of Figure~\ref{figure:measures} explained by the elasticity and experimentally induced change in the corresponding variable. Column (1) of Panel b.\ is analogous in format to Column (1) of Panel a.,\ based on IV estimates of Equation~\eqref{eq:prod}. Columns (2) and (3) of Panels a.\ and b.\ are analogous in format to Column (1) for Control Sets 2 and 3. Control Set 1: initial skills and site indicators. Control Set 2: Control Set 1 and male, black, and Hispanic indicators. Control Set 3: Control Set 2 and the maternal and household characteristics in Panel b.\ of Table~\ref{table:summary}. Standard errors and (one-sided) $p$-values are bootstrapped, clustered at the child level, and stratified by site, treatment status, and birthweight group (low-low or high-low).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+There are two salient reasons for potential bias in childcare and parenting. First, standard selection bias would bias upwards the OLS elasticities. For instance, $\varepsilon$ could reflect more awareness by parents (e.g.,\ greater unobserved parenting skills, capacity, or motivation), who would then mechanically invest more in their children through childcare and parenting. Second, measurement error could attenuate OLS elasticities. Childcare is driven by random assignment to treatment (control-group children spend a minor amount of time in childcare centers), and we have comprehensive measures. Consistent with this, the OLS and IV estimates are similar, indicating that selection and measurement biases are potentially minor in the case of this input. For parenting, both biases are plausible: (i) while random assignment to IHDP treatment increases this input, the control counterfactual is not minor; and (ii) while we correct parenting for measurement error, the HOME questionnaires are not infallible given the difficulty of measuring all what parents invest in their children. The elasticity estimates indicate that attenuation could be a more prominent issue, as the IV estimate of the elasticity is more than two times the corresponding OLS estimate. 
+
+To further interpret the elasticities, we display the elasticity-predicted percentage of the treatment effect by input. We calculate the experimentally induced percentage change in the input, multiply it by its elasticity, and divide the resulting product by the experimentally induced percentage change in early life skills. This exercise provides us with the percentage of the treatment effect explained by each of the inputs, as predicted by our elasticity estimates. \citep[i.e., a form of causal mediation analysis;][]{heckmanEconometricMediationAnalyses2015}. The more directly impacted input, childcare, explains a greater fraction of the treatment effect on early life skills. However, the contribution of parenting is substantial, confirming parenting as an important channel through which effective early childhood education programs impact their participants. Notably, childcare and parenting explain 87\% of the treatment effect on early life skills, leaving little room for a residual or omitted inputs in the production technology we postulate. 
+
+
+\subsection{ Complementarity and Substitutability Patterns}
+
+Figure~\ref{figure:mainestimates} displays the elasticities across the distribution of initial skills, holding childcare and parenting at the average. The figure indicates that childcare is more effective for relatively advantaged children. The opposite is true for parenting. Other estimates of the childcare elasticity are unavailable in the literature, as our paper is new in including this input. Available estimates of the parenting elasticity are consistent with our findings. Summarizing the literature, \citet{heckmanEconomicsHumanDevelopment2014b} state: ``the empirical literature [\ldots ] is consistent with the notion that investments and endowments are direct substitutes.'' In their discussion, investment refers to parenting. The authors document that the elasticity becomes positive over time, making early life a sensible period for investing in disadvantaged children.
+
+\begin{sidewaysfigure}
+\centering
+\caption{Main Estimates: Elasticities Across the Distribution of Initial Skills} \label{figure:mainestimates}
+\begin{subfigure}[h]{0.5\textwidth}
+	\centering
+	\caption{Childcare}  
+	\includegraphics[width=\textwidth]{output/elasticities_childcare.eps}
+\end{subfigure}%
+\begin{subfigure}[h]{0.5\textwidth}
+	\centering
+	\caption{Parenting} 
+	\includegraphics[width=\textwidth]{output/elasticities_parenting.eps}
+\end{subfigure}
+\footnotesize
+\justify
+\textbf{Note:} Panel (a) displays the childcare elasticity at the percentile of initial skills in the horizontal axis, holding childcare and parenting at the mean. The elasticity represents the change in early life skills given a 1\% change in childcare. It is based on IV estimates of Equation~\eqref{eq:prod}, conditional on initial skills and site indicators; indicators of male, black, and Hispanic; and the maternal and household characteristics in Panel b.\ of Table~\ref{table:summary}. Panel (b)  is analogous in format to Panel (a) for the parenting elasticity. Each elasticity is displayed with its 90\% confidence interval, which is bootstrapped, clustered at the child level, and stratified by site, treatment status, and birthweight group (low-low or high-low).
+\end{sidewaysfigure}
+
+A novelty of our paper is estimating a production technology in the context of a high-quality early childhood education program. \citet{garciaParentingPromotesSocial2023} argue that increasing parenting is essential to the success of these programs.\footnote{Parental investments are studied in the seminal works of \citet{beckerEquilibriumTheoryDistribution1979a,beckerHumanCapitalRise1986a} and \citet{behrmanParentalPreferencesProvision1982}. \citet{doepkeEconomicsParenting2019} and \citet{francesconiChildDevelopmentParental2016} are recent discussions.} Panel (b) of Figure~\ref{figure:counterfactuals} shows treatment effects on this input across the distribution of skills.\footnote{\label{footnote:abadie}An alternative to explore heterogeneity in the elasticities would be to provide an account of the compliers to our instruments \citep[e.g.,][]{abadieSemiparametricInstrumentalVariable2003}. Compliers are usually characterized in program-evaluation contexts with one outcome and one instrument. Our context is more complex: we consider an outcome to be a function of multiple endogenous variables and use multiple instruments. We thus explore heterogeneity by estimating elasticities across the distribution of initial skills.} More disadvantaged children, as measured by their initial skills, enjoy the larger treatment effects. For these children, treatment assignment to IHDP sizably increases their parenting. It turns out that parenting is the more effective input for them. This finding micro-founds a recent generality documented in \citet{garciaParentingPromotesSocial2023}: high-quality early childhood education programs boost parenting for the most disadvantaged, and this input is the more effective in the production of their early life skills, which in turn determines lifetime success. 
+
+\noindent \textbf{A Counterfactual Illustration.} A stylized counterfactual exercise in Panels (c) and (d) of Figure~\ref{figure:counterfactuals} illustrates the importance of childcare and parenting in promoting mobility. We use the control group for this exercise, displaying results for the pooled sample and for the sample of disadvantaged children (below the 25\textsuperscript{th} percentile of the distribution of initial skills). For disadvantaged children, the average of early life skills is 99.3 (gray dashed horizontal line), $0.7$ standard deviations below the overall average of 100 (black dashed horizontal line). We then use the elasticities in Figure~\ref{table:mainestimates} to impute percentage changes in childcare and parenting. The observed and counterfactual averages coincide when the percentage changes imputed are 0. For childcare, the elasticity is negative for the most disadvantaged. Thus, a greater imputed treatment effect leads to a lower average. For the overall sample, the average increases after imputation, which is expected given the positive impact of assignment to treatment in IHDP.\footnote{In addition, note that this exercise holds initial skills and parenting fixed. Thus, the treatment effect on early life skills is greater than what the black solid line suggests.} For parenting, the elasticity decreases as the level of initial skills increases. Imputing 1.2 of a standard deviation of parenting, equal to a 1.2\% increase relative to the control-group mean, the disadvantaged children virtually catch up to the average in the overall sample under the same imputation. This percentage change happens to be what assignment to treatment generates for the most disadvantaged among the disadvantaged, which are those below the 5\textsuperscript{th} percentile of the distribution of initial skills (see Panel (b) of Figure~\ref{table:mainestimates}). 
+
+\begin{sidewaysfigure}
+\centering
+\caption{Counterfactual Estimates: Imputing Treatment Effects Across the Distribution of Initial Skills} \label{figure:counterfactuals}
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Treatment Effect on Childcare in \% Change}  
+	\includegraphics[width=\textwidth]{output/ate_childcare}
+\end{subfigure}
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Treatment Effect on Parenting in \% Change} 
+	\includegraphics[width=\textwidth]{output/ate_parenting}
+\end{subfigure}
+
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Observed and Counterfactual Childcare}  
+	\includegraphics[width=\textwidth]{output/counterfactual_childcare}
+\end{subfigure}
+\begin{subfigure}[h]{0.4\textwidth}
+	\centering
+	\caption{Observed and Counterfactual Parenting}  
+	\includegraphics[width=\textwidth]{output/counterfactual_parenting}
+\end{subfigure}
+\footnotesize
+\justify
+\textbf{Note:} Panel (a) displays the average treatment-control difference in childcare, as a percentage of the control-group mean, at different percentiles of initial skills. Panel (b) is analogous in format to Panel (a) for parenting. Panel (c) displays the observed means of early life skills for the pooled (dashed black) and disadvantaged (dashed gray) control-group samples. It then displays the counterfactual average predicted by estimates of Equation~\eqref{eq:prod} if the percentage change of childcare in the horizontal axis were applied to all the sample. This counterfactual is displayed for the pooled (black circles) and disadvantaged (gray circles) samples. In either case, the percentage change in childcare is applied homogeneously, but the elasticities are allowed to vary by percentile as in Figure~\ref{figure:mainestimates}. Panel (d) is analogous in format to Panel (c) for percentage-change applications in parenting. Disadvantaged is defined as being below the 25$^\text{th}$ percentile of initial skills. Panels (c) and (d) are based on IV estimates of Equation~\eqref{eq:prod}, conditional on initial skills and site indicators; indicators of male, black, and Hispanic; and the maternal and household characteristics in Panel b.\ of Table~\ref{table:summary}. The confidence intervals in Panels (a) and (b) are robust and clustered at the child level.
+\end{sidewaysfigure}
+
+\subsection{ Longer-Term Estimates} \label{section:longer}
+
+Following the previous discussion, elasticity estimates later in life would be informative regarding the optimal timing for investment across the distribution of initial skills. We perform an exploratory exercise given that data on inputs after age three are unavailable, and data on skills suffer from a larger fraction of non-response. We construct a latent of later childhood skills, following the same procedure outlined for early life skills and using measures of IQ at ages five and eight (we observe age-appropriate versions of the Peabody Picture and Wechsler IQ tests at each of these two ages). The sample size drops from 644 to 575. However, we can estimate a production function identical to that in Equation~\eqref{eq:prod}, replacing early life skills with later childhood skills as output and with the exact same right-hand side. This estimation speaks to the productivity of the investments at age three on later childhood skills.\footnote{Table~\ref{table:summarya} in the Appendix indicates that, in terms of the observed average for the treatment and control groups, the sample of 575 individuals for this exercise is virtually identical to the main sample analyzed above. This close similarity holds for the child, maternal, and household characteristics, as well as for childcare, parenting, and the measures of early life skills that we use for constructing the early life skills latent.}
+
+While statistical tests comparing the elasticities in Figure~\ref{figure:mainestimates} to the elasticities from this longer-term exercise are implausible, Figure~\ref{figure:longerestimates} indicates a qualitative decrease in magnitude in either of the elasticities across the distribution of skills. Therefore, while we rely on the literature in arguing that earlier investments are more effective than later investments, we can conclude that (i) parenting is more effective for more disadvantaged children, as is boosted by assignment to IHDP treatment, which mimics the treatment of other high-quality early childhood education programs; and (ii) the productivity of inputs decreases over time, indicating that effective investments are to be reinforced across childhood---such reinforcement would be more effective in the presence of dynamic complementarity. 
+
+\begin{sidewaysfigure}
+\centering
+\caption{Longer-Term Estimates: Elasticities Across the Distribution of Initial Skills} \label{figure:longerestimates}
+\begin{subfigure}[h]{0.5\textwidth}
+	\centering
+	\caption{Childcare}  
+	\includegraphics[width=\textwidth]{output/longerelasticities_childcare}
+\end{subfigure}%
+\begin{subfigure}[h]{0.5\textwidth}
+	\centering
+	\caption{Parenting} 
+	\includegraphics[width=\textwidth]{output/longerelasticities_parenting}
+\end{subfigure}
+\footnotesize
+\justify
+\textbf{Note:} Panel (a) displays the childcare elasticity at the percentile of initial skills in the horizontal axis, holding childcare and parenting at the mean. The elasticity represents the change in later childhood skills given a 1\% change in childcare. It is based on IV estimates of Equation~\eqref{eq:prod}, conditional on initial skills and site indicators; indicators of male, black, and Hispanic; and the maternal and household characteristics in Panel b.\ of Table~\ref{table:summary}. Panel (b)  is analogous in format to Panel (a) for the parenting elasticity. Each elasticity is displayed with its 90\% confidence interval, which is bootstrapped, clustered at the child level, and stratified by site, treatment status, and birthweight group (low-low or high-low).
+\end{sidewaysfigure}
+
+\section{ Final Comments} \label{section:finalcomments}
+
+\noindent A few qualifications are in order before concluding. Our results are naturally subject to limitations. The three limitations that we judge as most relevant are the following. First, the time span for our main analysis is limited, as we only estimate a short-term production technology and only observe inputs up to age three. An appealing feature of our framework is that we can base our estimates on detailed information on inputs and outputs. A limitation, however, is that the follow-ups beyond age three have limited information on inputs (at ages five and eight) and insufficient information on inputs and skills at age eighteen. Second, our results are based on a single dimension of skills (cognition). This is common when studying skill production technologies as early in life as we do \citep[e.g.,][]{heckmanNonparametricTestsDynamic2023}, although there are some exceptions \citep[e.g.,][]{attanasioEstimatingProductionFunction2020b}. Finally, and perhaps most importantly, the generalization of our results should be cautious. Although IHDP included a more socioeconomically diverse sample than other early childhood education programs like the Carolina Abecedarian and Perry Preschool Projects, it is still the case that the eligibility requirements targeted the program to children with specific disadvantages. This targeting implies that the relatively disadvantaged children we discuss results for are especially disadvantaged.
+
+Despite its limitations, our study is new in estimating a production technology in a randomized setting within the United States. Unlike other work, we include both childcare and parenting as inputs of this technology. Our results micro-found the finding that effective, high-quality early childhood education programs boost parental investment (time and resources parents spend on their children) while providing high-quality center-based programs. The boost in parenting is especially pronounced for the most disadvantaged children, for whom this input is more effective than childcare at producing early life skills. Parenting is more effective for them than for more advantaged children, making it an essential input for promoting the mobility of early life skills and, in turn, lifetime outcomes. 
+
+\singlespacing
+\bibliographystyle{chicago}
+\bibliography{humancapital,ihdp,productionfunctions,econometrics}
+
+\pagebreak
+\renewcommand*{\thepage}{A.\arabic{page}}
+\setcounter{page}{0}
+\setcounter{equation}{0}
+\renewcommand{\theequation}{A.\arabic{equation}}
+\setcounter{section}{0}
+\renewcommand{\thesection}{A.\arabic{section}}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\setcounter{figure}{0}
+\renewcommand{\thetable}{A.\arabic{table}}
+\setcounter{table}{0}
+\thispagestyle{empty}
+
+\section*{ Appendix}
+\pagebreak 
+
+\begin{table}[H]
+\begin{threeparttable}
+\caption{Summary Statistics: Sample with Fully Observed Basic Baseline Characteristics} \label{table:summaryall}
+\centering 
+\onehalfspacing
+\begin{tabularx}{16cm}{XcX}
+& \scalebox{.7}{
+\input{output/descriptive_all.tex}																		
+} 
+& 
+\end{tabularx}
+\begin{tablenotes} 
+\footnotesize
+\noindent \textbf{Note:} Columns (1) and (2) display the average of the variable indicated in the row for the treatment and control groups. Column (3) displays the difference between Columns (1) and (2), and Column (4) displays the robust standard error of this difference clustered at the child level. All computations are based on the sample of 882 singleton participant children for whom we observed all the baseline characteristics listed in this table.\\
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\pagebreak
+\begin{figure}[H]
+\centering
+\caption{Standardized Childcare (Ages 1 to 3)} \label{figure:standardizedchildcare}
+	\includegraphics[width=.65\textwidth]{output/cum_avg_daycare_36m_sum_std}
+\footnotesize
+\justify
+\textbf{Note:} This figure is a version of Panel (c) of Figure~\ref{figure:measures}. In this figure, we standardize the measure of childcare by subtracting the control-group mean from it, dividing it by the control-group standard deviation, and adding the control-group mean to relocate it. We display the control-group mean, the average treatment-control difference of this standardized measure, and the robust standard error of this difference clustered at the child level. 
+\end{figure}
+
+\pagebreak
+\begin{table}[H]
+\begin{threeparttable}
+\caption{Summary Statistics: Sample with Outcomes Observed at Ages Five and Eight} \label{table:summarya}
+\centering 
+\onehalfspacing
+\begin{tabularx}{16cm}{XcX}
+& \scalebox{.7}{
+\input{output/descriptive_longer.tex}																		
+} 
+& 
+\end{tabularx}
+\begin{tablenotes} 
+\footnotesize
+\noindent \textbf{Note:} Columns (1) and (2) display the average of the variable indicated in the row for the treatment and control groups. Column (3) displays the difference between Columns (1) and (2), and Column (4) displays the robust standard error of this difference clustered at the child level. All computations are based on an analysis sample of 575 singleton participant children (observed with complete item response up to age eight).
+\end{tablenotes}
+\end{threeparttable}
+\end{table}
+
+\end{document}
