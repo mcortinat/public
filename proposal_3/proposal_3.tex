@@ -20,29 +20,34 @@
 
 \section{ Research question}
 
-What is the impact of the implementation of the enforcement of payments of child support debt?
+In the past two decades, Chile has experienced a sharp increase in immigration, primarily from Venezuela, Haiti, Peru, and Colombia. During the same period, crime rates have also risen, and the nature of crime has changed, becoming more violent and including new forms of organized and drug-related offenses. The media has often portrayed immigrants as responsible for this shift, shaping public perception and potentially influencing policy attitudes \citep{valenzuela2019media}. Does immigration increase or change the crime patterns in Chile? Are municipalities with higher immigration inflows experiencing greater increases in crime rates? Are immigrants overrepresented among perpetrators of violent or “new” crimes? How does media coverage influence public perception of immigrants and their association with crime?
 
-This question is important for two main reasons:
+\section{ Economic Framework and Empirical Design}
 
-\begin{enumerate}
-    \item \textbf{Negative effects on children.} Knox provides evidence that increased child support payments can improve the academic achievement of elementary school children even more than income from other sources. There is also broad evidence that failure to pay child support is detrimental to children’s economic well-being and often coincides with weakened father–child relationships \cite{CITE}.
-    
-    \item \textbf{Negative effects on mothers.} Most child support creditors are women. Parenting is a shared responsibility, yet when fathers are absent or fail to pay child support, the entire economic burden falls on mothers. This reduces their ability to invest in themselves due to the higher costs of raising children.
-\end{enumerate}
+Individuals (immigrants and natives) make location and employment decisions under economic constraints (e.g., wages, legal status, housing access). Policymakers and the public react to perceived changes in local crime, often informed by media coverage. 
+Who makes the choices? Immigrants decide where to settle; natives and firms adjust behavior based on perceived safety or labor competition.
+What are the constraints? Labor market opportunities, local security, and social acceptance.
+How do they interact? Through neighborhood-level dynamics, competition, discrimination, and exposure to media narratives.
 
-In Chile, 84\% of the child support ordered by family courts goes unpaid, and 96\% of debtors are men. In 2022, the national registry of child support debtors was created, and in 2023 the enforcement law was implemented. This law allows Family Courts to investigate and automatically seize funds from bank and investment accounts. By May 2025, family courts had ordered the payment of over USD 2.6 billion, benefiting approximately 282,000 families.
+To study the relationship between immigration and crime, I propose an empirical strategy using a municipality-by-year panel dataset for Chile over the period 2005--2023. The main estimating equation is:
 
-Given this magnitude, it is important to understand how these transfers are affecting both children and mothers. In this proposal, I focus on mothers: specifically, whether enforcement has improved their ability to invest in themselves. Are they now investing more in education, starting businesses, or improving their access to credit?
+\begin{equation}
+	Crime_{mt} = \alpha + \beta \, Immigration_{mt} + \mu_m + \tau_t + X_{mt}'\gamma + \varepsilon_{mt},
+\end{equation}
 
-\section{Economic Framework and Empirical Design}
-Before enforcement, mothers face a tighter budget constraint because they do not receive the transfers owed to them, having to pay for childcare, food, education, and other child-related expenses on their own. Fathers may strategically default due to weak enforcement. With the reform, constraints change: mothers have greater disposable income, while fathers face higher enforcement costs and reduced opportunities to default. Courts shift bargaining power towards mothers by guaranteeing enforcement. This could alter intra-household bargaining, investment decisions, and labor supply choices.
+\noindent where $Crime_{mt}$ denotes the crime rate (per 100,000 inhabitants) in municipality $m$ at time $t$, and $Immigration_{mt}$ represents the share of immigrants in the local population. Municipality fixed effects $(\mu_m)$ absorb time-invariant characteristics such as geography and historical violence, while year fixed effects $(\tau_t)$ control for national trends in crime and policy. The vector $X_{mt}$ includes controls such as unemployment, poverty, education, and police presence.
 
-A possible empirical design for this project is a \textit{difference-in-differences} approach: comparing outcomes of eligible mothers before and after 2023 (the reform), relative to mothers without child support orders. I will also explore heterogeneity by baseline debt size, mother’s education, and income.
+The coefficient $\beta$ captures whether increases in immigration are associated with changes in local crime. However, since immigrants may choose to move to safer or more economically dynamic areas, OLS estimates may be biased. To address this, I propose an instrumental variable (IV) strategy exploiting \emph{pre-existing settlement patterns} by nationality: a shift-share instrument constructed as the interaction between historical immigrant shares (from the 2002 Census) and national inflows by origin in later years.
 
-\section{Data}
-The \textit{Chilean Household Finance Survey} (Encuesta Financiera de Hogares), conducted every three years, is a promising data source. The latest round (2024) was fielded after the bill’s implementation. Although the data are not yet available, I am currently contacting researchers at the Central Bank of Chile, which administers the survey, to determine whether it captures variables related to child support payments, debt enforcement, and household investments.
+A second part of the analysis will explore the role of media influence. Using textual analysis of newspaper and television reports, I will construct a measure of anti-immigrant sentiment and examine how media exposure affects public perceptions of crime. Combining this with survey data (e.g., from CEP or UDP), I can test whether perceived crime diverges from actual reported crime, and whether this divergence correlates with local media coverage intensity.
+
+
+\section{ Data}
+
+Data on crime for Chile is available publicly and it includes the type of crime, age, gender and nationality of the victim and criminal, for every month and location (municipality level) starting in 2000. Immigration data is also public and available 
+on the Census and in immigration registries.
 
 \bibliographystyle{apalike}
-\bibliography{references}
+\bibliography{literature}
 
 \end{document}
