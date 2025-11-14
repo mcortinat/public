@@ -18,6 +18,14 @@
 
 \doublespacing
 
+\section{ Motivation}
+
+Women have historically been underrepresented in some professional careers. Specifically, there is low female participation in careers related to mathematics, science, economics, and computer science. Women tend to prefer artistic and humanities careers over those just mentioned \citep{bettinger_faculty_2005, wiswall_determinants_2013}.
+
+Although the situation of women in the academic and working world has evolved, something special is happening in economics. For multiple reasons, women tend not to choose it. Although female participation in STEM careers has increased in the recent years, economics continues to lag behind. In the United States, only a third of the economics  bachelor’s degrees are awarded to women, while in STEM majors this percentage reaches almost 60\%. In figure 1, the stability of this fraction in economics over the last two decades contrasts with the growth observed in other sciences. Similarly, in the realm of PhDs, economics has consistently awarded approximately one-third to women, diverging significantly from STEM fields where the proportion is 56\% \citep{bayer_diversity_2016}. Notably, the gender gap in economics surpasses that of other disciplines.
+
+In the leading five economics schools globally \citep{megraoui2019}, female representation among 
+
 \section{ Literature Review}
 
 Role models, as delineated in the literature, are defined along a spectrum of characteristics predominantly grounded in social psychology. These individuals influence the behavior of others merely through exposure \citep{merton_social_1968}. Observing the success of a model’s behavior substantially enhances motivation, emerging as a pivotal factor that determines the effectiveness of behavior modeling \citep{bandura_social_1977}. Moreover, a role model typically embodies the experience and expertise that an observer lacks—or perceives themselves to lack—thereby providing a pathway for learning through observation and comparison \citep{kemper_reference_1968}. The observer attentively studies the model’s behavior within its original context and subsequently applies the acquired insights across broader situations \citep{brophy_child_1977}.
@@ -34,8 +42,7 @@ At the undergraduate level, \citet{carrell_sex_2010} find that having a female t
 \citet{porter_gender_2020} studied the impact of exposure to female role models in introductory economics courses at an American university. Female alumni of the economics major delivered neutral, gender-oriented speeches explaining how their choice of an economics degree influenced their professional trajectories and contributed to their success. Employing a difference-in-differences strategy, the study revealed a notable and statistically significant eight-percentage-point increase from a 9\% baseline in female students’ inclination to major in economics following these interventions. The research indicates that the mechanism driving this shift is primarily inspirational rather than informational. The study underscores the efficacy of a straightforward and cost-effective intervention that can encourage women to pursue fields traditionally dominated by men, which are often associated with higher earning potential.
 
  \citet{griffith_role_2021} examine whether female graduate teaching assistants (TAs) can serve as effective role models for female undergraduates in engineering. Using data from first-year engineering students who were randomly assigned to TAs, they find limited evidence that female TAs improve women’s course grades or persistence in engineering. However, they do find that female students assigned to female TAs are significantly more likely to choose high-earning engineering fields, especially when the classroom environment includes a female instructor and a higher share of female peers. These findings suggest that gender-matching effects in the classroom may influence female students’ confidence and field choices rather than immediate academic performance, highlighting the potential of near-peer female mentors to encourage women’s entry into competitive and lucrative disciplines.
- 
- \noindent \textbf{[JLG: Approved. The Madagascar reference is broken, but that is a minor issue.]}
+
  
  \section{ The Chilean Context}
  
@@ -47,12 +54,74 @@ Given this, students must choose their major before entering college, once they 
 \subsection{ The Commercial Engineering Program}
 In Chile, economics coexists with other disciplines—particularly business administration—within a single professional program known as Commercial Engineering. Therefore, economics itself is not a standalone professional degree but rather a specialization within this program, corresponding to a bachelor's degree. This distinction is important because in Chile professional titles tend to carry more weight than bachelor’s degrees, and there is no professional title of Economist.
 
-Although business administration and economics are quite different fields, they share a common academic curriculum during the first two years of the program, after which students begin to specialize by choosing one of the two majors. Before making this choice, the common curriculum at the institution from which the data used in this study are drawn, includes the courses listed in Table 1.
-
-At the end of the fourth semester, once these courses have ideally been completed, students select their major. Those who choose Economics enroll in Mathematical Economics during the fifth semester, which is the first course specific to the major. Only the courses shown in bold in Table 1 serve as prerequisites for this subject: Introduction to Economics, Microeconomics I, Algebra I, Calculus I, and Calculus II. It is worth noting that students are not asked at the beginning of the program which major they intend to pursue.
+Although business administration and economics can be quite different fields, they share a common academic curriculum during the first two years of the program, after which students begin to specialize by choosing one of the two majors. Before making this choice, they have to complete a set of pre-requisites\footnote{Introduction to Economics, Microeconomics I, Algebra I, Calculus I, and Calculus II. A table is provided in the apendix with the order this courses follow per semester.}. In the fifth semester, those who choose Economics enroll in Mathematical Economics, which is the first course specific to the major. It is worth noting that students are not asked at the beginning of the program which major they intend to pursue.
 
 	
-	\begin{table}[ht]
+
+	
+
+\subsection{ Teaching Assistants}
+Teaching assistants are typically students who demonstrate exceptional mastery of the subject they support. While not considered experts, they possess in-depth knowledge of the course content and excel at explaining exercises and concepts clearly and systematically during complementary sessions under the supervision of course instructors. Their responsibilities include leading additional sessions alongside regular classes and being available to answer student questions throughout the semester. The selection process for teaching assistants varies; professors often choose them either through an online application system or by direct appointment.
+
+There are two main types of teaching assistants: those who regularly lead recitations and those responsible for grading assessments such as exams, quizzes, and assignments. Typically, each course has two assistants who share duties related to teaching and grading, and they often help supervise students during examinations. Most teaching assistants from the sample are students from the same university. This shared educational background, combined with the relative closeness in age between assistants and students, fosters a more personal connection and increases the likelihood of establishing a stronger rapport than that usually formed with traditional instructors.
+
+\section{ Data}
+
+For this study, I had access to administrative data from a private university in Santiago, Chile. The dataset includes course enrollment records linked to their respective class numbers. The decision variable for choosing the Economics major is enrollment in the course Mathematical Economics (ECO301), which is the first course of the major and, based on academic progression, corresponds to the fifth semester. Accordingly, the sample was restricted to students who had passed all prerequisite courses required to enroll in Mathematical Economics—that is, those eligible to choose this first course of the Major in Economics. 
+
+Based on these criteria, the final sample consists of 3279 students from cohorts 2013-2019. From these sample, 40\% are women and 10\% choose the economics major.
+
+% Baseline / school variables by gender
+\begin{table}[htbp]
+	\centering
+	\small
+	\input{est_descr_base.tex}
+	\caption{Descriptive statistics by gender}
+	\label{tab:desc_base}
+\end{table}
+
+% TA
+%\begin{table}[htbp]
+%	\centering
+%	\small
+%	\input{est_descr_ta.tex}
+%	\caption{Descriptive statistics:  }
+%	\label{tab:desc_perf}
+%\end{table}
+
+
+Regarding the teaching assistants, the sample is made up of 641 students: 46.03\% women and 53.97\% men. I have information on their gender, if they are major in economics or not –at the time of data collection– and if they are students or external. It is also known whether the TA is a grader or an instructor. Figure X shows the exposure to female teaching assistants in the prerequisite courses required to enroll in Mathematical Economics for all students in the sample, without differentiating by major. Most of the students had female assistants in the initial economic courses. In contrast, in the initial mathematical courses, most of the students had only male assistants. Then, figure X shows the exposure to female assistants of undergraduate economics students. Here I show how female students who are part of the economics major were previously more exposed to female assistants, especially in economic subjects. In Introduction to Economics, 73\% of all women had at least one female assistant, while in the case of students of the major of economics this percentage corresponds to 84\%. In Microeconomics I, 76\% of the students had at least one female assistant. In the economics major, 89\% were exposed to female assistants in this course.
+
+\section{ Empirical Strategy}
+
+\subsection{ Model}
+I use a linear probability model with an interaction-term estimation strategy. The treated group consists of those students who were exposed to at least one female assistant. The analysis is divided by course and by area (economics and mathematics), which correspond to the prerequisites to enroll in Mathematical Economics, the first specialty course in the Economics major. Then, those students who had at least one female assistant in the respective area are treated. Therefore, the control group is the students who for each area had only male assistants. The following regression measures the effect of the role model:
+
+\begin{equation}
+	Econ_i = \beta_0 + \beta_1 T_i + \beta_2 Female_i + \beta_3 T_i * Female_i + \delta_i + \varepsilon_i
+\end{equation}
+
+$Econ_i$ is the proxy for student $i$ interest in economics and is equal to 1 if student $i$ enrolled in Mathematical Economics and 0 if not, during the sample period. $T_i$ is a treatment dummy, that is, it is equal to 1 if student $i$ had at least one female teaching assistant in the corresponding course/area and 0 if he had only male assistants. For its part, $Female_i$ is equal to 1 if student $i$ is a woman, and 0 for male students. The interaction coefficient between these two dummies, $\beta_3$, is the coefficient of interest, as it indicates whether having a female assistant affects female students differently than male students in their decision to pursue a degree in Economics. $\delta_i$ is a vector of control variables per student. Section fixed effects is also included.
+
+This regression was estimated for the baseline case of treated and controls already described, and another one in which the intensity of treatment is studied: students who had 2 or more female assistants in each course/area are treated, and controls who had less than 2 female assistants in each course/area. Since most classes have 2 assistants, this model would indicate the effect of having only female assistants in each course.
+
+\subsection{ Identification Strategy}
+
+The model's identification strategy hinges on the presumed exogeneity in the assignment of assistants, as students lack direct control or choice over this selection process. Notably, the selection of assistants occurs subsequent to the course enrollment. The initial step involves teachers creating the teaching assistance offer during the final week of July for the second semester, subsequent to the closure of the first course enrollment window. Following this, students can apply in the closing days of July, and results are then published before the beggining of the next semester. Professors who wish to work with specific assistants, not included in the initial online offer, have the opportunity for direct registrations in the system\footnote{Table X in the appendix delineates the academic calendar for these periods in the years 2016 and 2017.}. 	
+However, what isn't exogenous to the students is the course enrollment process and, consequently, the selection of professors. After the first semester, students select their professors based on various factors such as schedules, teacher reputation, peer groups, assessment styles, among others. Importantly, teachers often engage in a non-random selection process for assistants, involving meetings, interviews, and specific preferences. If this selection by teachers were biased based on gender, students, in choosing their teachers, would indirectly exhibit a higher likelihood of selecting assistants of a particular gender.
+
+
+\bibliographystyle{chicago}
+\bibliography{women_in_econ}
+
+\clearpage
+\appendix
+
+\appendix
+\section{ I. Additional Tables}
+\label{app:tables}
+
+		\begin{table}[h]
 		\centering
 		\caption{Commercial Engineering Academic Program, by semester}
 		\label{tab:program}
@@ -104,56 +173,8 @@ At the end of the fourth semester, once these courses have ideally been complete
 		\vspace{3pt}
 		\footnotesize \emph{Notes:} Bold courses indicate prerequisites for \emph{Mathematical Economics} (the first Economics-major course).
 	\end{table}
-	
 
-\subsection{ Teaching Assistants}
-Teaching assistants are typically students who demonstrate exceptional mastery of the subject they support. While not considered experts, they possess in-depth knowledge of the course content and excel at explaining exercises and concepts clearly and systematically during complementary sessions under the supervision of course instructors. Their responsibilities include leading additional sessions alongside regular classes and being available to answer student questions throughout the semester. The selection process for teaching assistants varies; professors often choose them either through an online application system or by direct appointment.
 
-There are two main types of teaching assistants: those who regularly lead classes and those responsible for grading assessments such as exams, quizzes, and assignments. Typically, each course has two assistants who share duties related to teaching and grading, and they often help supervise students during examinations. Most teaching assistants from the sample are students from the same university. This shared educational background, combined with the relative closeness in age between assistants and students, fosters a more personal connection and increases the likelihood of establishing a stronger rapport than that usually formed with traditional instructors.
 
-\section{ Data}
-
-For this study, I had access to administrative data from a private university in Santiago, Chile. The dataset includes course enrollment records linked to their respective class numbers. The decision variable for choosing the Economics major is enrollment in the course Mathematical Economics (ECO301), which is the first course of the major and, based on academic progression, corresponds to the fifth semester. Accordingly, the sample was restricted to students who had passed all prerequisite courses required to enroll in Mathematical Economics—that is, those eligible to choose this first course of the Bachelor’s in Economics. 
-
-Based on these criteria, the final sample consists of 2,776 students from cohorts 2013-2019\footnote{I'm on the process of updating the data to add more cohorts. The study was already submitted to Huron and I'm waiting on that to be able to receive the rest of the data.}. From these sample, 40\% are women and 10\% choose the economics major\footnote{This is something that will change with the updated data. The econ major has been growing exponentially.}. 88\% of the students went to a private school. [still working on a table on descriptive statistics]
-
-A list of all the variables that I have in the data is the following:
-\begin{itemize}
-	\item Student ID
-	\item Student birth year
-	\item Student gender
-	\item Highschool municipality
-	\item Type of highschool
-	\item College program
-	\item Cohort
-	\item Highschool grades average
-	\item PSU scores (standarized test to apply to universities)
-	\item Weighted PSU score
-	\item Ranking PSU score
-	\item Average PSU score
-	\item Fifth year College program (master's)
-	\item College application type
-	\item College status
-	\item Reason for inactivity (if inactive)
-	\item TA id
-	\item TA type (instructor / grader)
-	\item TA gender
-	\item TA is in the Econ major
-	\item TA evaluation of the course
-	\item Professor ID
-	\item Section id
-	\item Course initials
-	\item Course grade
-	\item Campus
-	\item Semester
-	\item Professor gender
-	\item Professor type (hour / plant)
-	\item Professor evaluation of the course
-\end{itemize}
-
-\textbf{AZ Comments on Data section:} This looks like great progress to me. You should write in the present tense. For the final project, edit this so that it more closely aligns with how data sections look in published work. For example, no bullet point lists. Even if you do not have all the data or IRB approval, you can still rewrite things so that there are complete paragraphs. This will not require too much as the section does not need to be long. You have most of the information there already. 
-
-\bibliographystyle{chicago}
-\bibliography{women_in_econ}
 
 \end{document}
