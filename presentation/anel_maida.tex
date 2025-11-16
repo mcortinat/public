@@ -21,7 +21,8 @@
 
 
 % ===== TITLE =====
-\title{Femate TA as Role Models in Economics}
+\title{Moved to Opportunity: The Long-Run Effects of Public
+Housing Demolition on Children (Chyn, 2018)}
 \author{Magdalena Cortina \& Anel Rodríguez}
 \institute{Texas A\&M University}
 \date{\today}
@@ -35,19 +36,249 @@
 	\end{frame}
 	
 	
-	% ---------- SLIDE 2: Motivation ----------
-	\begin{frame}{Motivation}
-		\begin{itemize}
+	% ---------- SLIDE 2----------
+\begin{frame}{Introduction}
+\begin{itemize}
+    \item Cities have spent over \$6B demolishing public housing and providing vouchers.
+    \item The paper estimates the long-run impacts of these demolitions on children in Chicago.
+    \item Displaced households moved to areas with much lower poverty and violent crime.
+    \item Displaced children show higher employment and earnings, fewer violent crime arrests, and lower dropout rates (for younger children).
+    \item Both younger and older children benefit; estimated lifetime earnings rise by about \$45,000.
+\end{itemize}
+\end{frame}
 
-		\end{itemize}
-		
-	\end{frame}
+
+
+    % ---------- SLIDE 3----------
+\begin{frame}{Public Housing Demolition in Chicago}
+\begin{itemize}
+    \item In the 1990s, Chicago had the third-largest public housing system, with 17 projects housing nearly 5\% of the population.
+    \item Residents were very low-income, predominantly African American, and often single-parent households.
+    \item Demolition was driven by severe management failures and deteriorating infrastructure.
+    \item Displaced families received Section 8 vouchers or transfers within/across projects, with moving costs covered.
+    \item Voucher subsidies covered the gap between rent (or Fair Market Rent) and 30\% of adjusted family income.
+\end{itemize}
+\end{frame}
+
+
+
+
+       % ---------- SLIDE 4----------
+\begin{frame}{Expected Effects of Demolition on Children}
+\begin{itemize}
+    \item Displaced households may use vouchers to move to lower-poverty areas.
+    \item Exposure to higher-income neighbors and peers may improve role models and information networks.
+    \item Parents may access better job networks and invest more in children.
+    \item Evidence on these mechanisms is mixed.
+    \item Demolition may also affect children through school quality or less-dense private housing.
+\end{itemize}
+\end{frame}
+
 	
-	
+
+    % ---------- SLIDE 5----------
+\begin{frame}{Data Sources and Sample Construction}
+\begin{itemize}
+    \item The study links CHA building records with IDHS social assistance files (TANF/AFDC, Food Stamps, Medicaid, 1994–1997) to identify children living in public housing during demolition.
+    \item Baseline characteristics and long-run outcomes are merged with IDES UI wage records (1995–2009), ISP arrest records (to 2009), and IDHS assistance files (1989–2009).
+\end{itemize}
+\end{frame}
+
+
+
+
+     % ---------- SLIDE 5.1----------
+\begin{frame}{Sample of Public Housing Buildings}
+\begin{itemize}
+    \item The analysis focuses on non-senior projects with demolitions during 1995–1998 (HOPE VI), limiting the sample to high-rise buildings (75+ units).
+    \item Projects where demolition may reflect unobserved tenant selection are excluded.
+    \item The final sample includes 53 high-rise buildings in 7 projects, with closure dates from Jacob (2004).
+    \item Of these, 20 buildings were demolished (treated) and 33 remained open and serve as controls.
+\end{itemize}
+\end{frame}
+
+
+
+  % ---------- SLIDE 5.2----------
+\begin{frame}{Linking Households to the Public Housing System}
+\begin{itemize}
+    \item The study uses social assistance records with exact street addresses, identifying welfare recipients living in public housing in the year before closure. 
+    \item These data include 5,676 adults, covering at least 73\% of households in the demolition sample.
+    \item The focus is on children age 7–18 at demolition, with adult outcomes observed 3–14 years later. 
+    \item The final sample includes 5,250 children from 2,767 households, forming a person-year panel through 2009.
+    \item This panel is merged with administrative data on labor market outcomes, assistance receipt, and criminal arrests.
+\end{itemize}
+\end{frame}
+
+
+
+
+     % ---------- SLIDE 6----------
+\begin{frame}{Empirical Approach}
+\begin{itemize}
+    \item Compare children in demolished buildings with those in non-demolished buildings within the same project.
+    \item If assignment within projects is effectively random, differences reflect demolition effects.
+    \item Model:
+    \[
+        Y_{it} = \alpha + \beta D_{b(i)} + \psi_{p(i)} + \varepsilon_{it}
+    \]
+    \item $D_{b(i)}$ indicates demolition; project fixed effects included; SEs clustered by building.
+    \item Also estimate models with sex and age-group interactions (7–12 vs.\ 13–18).
+    \item $\beta$ is causal if demolition was unrelated to resident traits.
+\end{itemize}
+\end{frame}
+
+
+
+
+
+        % ---------- SLIDE 6.1----------
+\begin{frame}{Effect of Moving Out of Project-Based Public Housing}
+\begin{itemize}
+    \item The study also uses building demolition as an instrument to estimate the “dose effect” of an additional year in high-rise public housing.
+    
+    \item 2SLS system:
+    \[
+        P_i = \gamma + \tau D_{b(i)} + \psi_{p(i)} + \eta_{it}
+    \]
+    \[
+        Y_{it} = \pi + \theta P_i + \psi_{p(i)} + \varepsilon_{it}
+    \]
+
+    \item $P_i$ measures total years spent in project-based public housing (including pre-demolition years).
+\end{itemize}
+\end{frame}
+
+
+
+
+          % ---------- SLIDE 6.2----------
+\begin{frame}{Comparing Treated and Control Individuals Before Demolition}
+\begin{itemize}
+    \item The design requires that demolition was not correlated with children’s baseline characteristics.
+    \item Treated and control children show no significant differences in prior crime, demographics, schooling, or by sex.
+    \item Adults in demolition buildings also do not differ in prior criminal activity or labor market history.
+\end{itemize}
+\end{frame}
+
+
+
+
+
+           % ---------- SLIDE 6.3----------
+\begin{frame}{Testing for Attrition and Spatial Spillovers}
+\begin{itemize}
+    \item Administrative data reduce attrition concerns, but bias could arise if displaced children leave the state and appear with zero earnings.
+    \item Using Grogger’s (2013) terminal-zero method, there is no evidence that displaced children attrit more than controls.
+    \item Tests for spatial spillovers, using indicators for living near demolition buildings, show no effects on labor market or welfare outcomes.
+\end{itemize}
+\end{frame}
+
+
+
+     % ---------- SLIDE 7----------
+\begin{frame}{Main Results: Effects on Household Location}
+\begin{itemize}
+    \item Vouchers expand housing choice; baseline project areas had extremely high poverty (around 78\%).
+    \item Address records allow tracking whether displaced households moved to lower-poverty neighborhoods.
+    \item Displaced families did move to substantially better areas: three years after demolition they lived in tracts with about 21\% lower poverty and 42\% less violent crime.
+    \item These neighborhood advantages decline over time, with much smaller differences by year eight.
+\end{itemize}
+\end{frame}
+
+
+
+     % ---------- SLIDE 7.1----------
+\begin{frame}{Main Results: Effects on Labor Market Activity}
+\begin{itemize}
+    \item Displaced children are more likely to be employed (about +4 p.p., 9\%) and earn more as adults (around +\$600, 16\%); they are also more likely to earn above \$14,000.
+    \item Impacts are larger for girls, who show stronger gains in both employment and annual earnings; boys’ effects are positive but less precisely estimated.
+    \item Effects vary with age at displacement: older children consistently benefit, while younger children see gains that grow as they age.
+    \item By age 26, children displaced at young ages earn about \$3,000 more annually.
+    \item Overall, benefits increase with longer exposure to improved neighborhood conditions.
+\end{itemize}
+\end{frame}
+
+
+
+ % ---------- SLIDE 7.2----------
+\begin{frame}{Main Results: Effects on Social Assistance and Crime}
+\begin{itemize}
+    \item Demolition and relocation may influence welfare use and criminal behavior through improved neighborhood conditions.
+    \item Administrative assistance records allow tracking whether relocation changes participation in public programs.
+    \item Arrest data are used to assess impacts on criminal activity after moving to lower-crime areas.
+    \item Relocated youth have about 14\% fewer violent crime arrests, with larger reductions for males.
+\end{itemize}
+\end{frame}
+
+
+
+    
+
+     % ---------- SLIDE 7.3----------
+\begin{frame}{Main Results: Effects by Subgroup}
+\begin{itemize}
+    \item Subgroup analysis shows consistently positive labor market impacts and reductions in violent arrests across baseline characteristics.
+    \item Children from more disadvantaged backgrounds such as households with no working adults or projects with poverty above 70\%, experience especially large gains in employment and earnings.
+    \item Overall, benefits appear broadly shared but strongest for the most disadvantaged children.
+\end{itemize}
+\end{frame}
+
+
+    
+
+         % ---------- SLIDE 7.4----------
+\begin{frame}{Main Results: Impact of Living in Public Housing on Labor Market Outcomes}
+\begin{itemize}
+    \item Displaced children show clear improvements in employment and earnings as young adults.
+    \item Demolition is used as an instrument to estimate the effect of additional years spent in public housing.
+    \item Displaced children spent about 2.6 fewer years in public housing; each extra year of exposure reduces labor force participation by roughly 2 p.p. and annual earnings by about \$275.
+\end{itemize}
+\end{frame}
+
+
+
+         % ---------- SLIDE 8----------
+\begin{frame}{Mediating Mechanisms}
+\begin{itemize}
+    \item No evidence that demolition affected parents’ labor supply, ruling out a parental income channel.
+    \item Moving to safer neighborhoods does not reduce teen arrests, so crime-related channels appear limited.
+    \item Schooling matters: younger displaced children are less likely to drop out and show higher two-year college attendance, while older children show no schooling effects.
+\end{itemize}
+\end{frame}
+
+
+
+
+             % ---------- SLIDE 9----------
+\begin{frame}{Cost-Benefit Analysis}
+\begin{itemize}
+    \item Relocation raises adult earnings by about 16\%, implying roughly \$45,000 in lifetime gains (\$12,000 present value).
+    \item Voucher programs cost far less than project-based housing; main expense is moving assistance (≈\$1,100 per family).
+    \item For families with two children, benefits far exceed costs, yielding positive fiscal returns.
+\end{itemize}
+\end{frame}
+
+
+
+
+         % ---------- SLIDE 10----------
+\begin{frame}{Conclusion}
+\begin{itemize}
+    \item The study provides the first long-run causal evidence from Chicago’s 1990s demolitions.
+    \item Displaced children show better labor market outcomes, especially those relocated at ages 7–12 (about +\$3,000 at age 26).
+    \item They also have fewer violent crime arrests and lower high school dropout rates.
+    \item Overall, relocation generates large benefits: lifetime earnings rise by roughly \$45,000 (\$12,000 present value), suggesting positive fiscal returns.
+\end{itemize}
+\end{frame}
+
+
+
 	
 	\begin{frame}{}
 		
 		\centering
+        \Large
 		Thank you!
 		
 	\end{frame}
