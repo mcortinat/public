@@ -1,0 +1,24 @@
+{
+\def\sym#1{\ifmmode^{#1}\else\(^{#1}\)\fi}
+\begin{tabular}{l*{5}{c}}
+\toprule
+                &\multicolumn{1}{c}{(1)}&\multicolumn{1}{c}{(2)}&\multicolumn{1}{c}{(3)}&\multicolumn{1}{c}{(4)}&\multicolumn{1}{c}{(5)}\\
+                &\multicolumn{1}{c}{Intro to Eco}&\multicolumn{1}{c}{Micro I}&\multicolumn{1}{c}{Calculus I}&\multicolumn{1}{c}{Calculus II}&\multicolumn{1}{c}{Algebra I}\\
+\midrule
+Female          &   -0.025         &   -0.055\sym{**} &   -0.049\sym{**} &   -0.048\sym{**} &   -0.036\sym{*}  \\
+                &  (0.017)         &  (0.019)         &  (0.015)         &  (0.015)         &  (0.014)         \\
+\addlinespace
+T               &    0.030\sym{*}  &   -0.015         &   -0.007         &   -0.024         &   -0.009         \\
+                &  (0.015)         &  (0.016)         &  (0.015)         &  (0.015)         &  (0.015)         \\
+\addlinespace
+T\_Female        &   -0.012         &    0.031         &    0.028         &    0.030         &    0.004         \\
+                &  (0.022)         &  (0.023)         &  (0.022)         &  (0.022)         &  (0.022)         \\
+\midrule
+Controls        &       No         &       No         &       No         &       No         &       No         \\
+Obs.            & 2988.000         & 2988.000         & 2988.000         & 2988.000         & 2988.000         \\
+R-squared       &    0.005         &    0.004         &    0.004         &    0.004         &    0.003         \\
+\bottomrule
+\multicolumn{6}{l}{\footnotesize Standard errors in parentheses}\\
+\multicolumn{6}{l}{\footnotesize \sym{*} \(p<0.05\), \sym{**} \(p<0.01\), \sym{***} \(p<0.001\)}\\
+\end{tabular}
+}
